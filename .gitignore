@@ -1,0 +1,7 @@
+apk/
+gamefiles/
+Balatro-APK-Patch/
+tools/
+src/.idea/
+src/patches/
+src/*.py

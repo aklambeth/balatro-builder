@@ -1,0 +1,10 @@
+{
+    "devDependencies": {
+    },
+
+    "scripts": {
+        "build": "docker build . -t balatrobuilder",
+        "start": "./start.sh"
+    }
+    
+}
