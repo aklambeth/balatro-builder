@@ -1,5 +1,6 @@
 .gitpod.*
-apk/
+build/apk/cache/*
+!build/apk/cache/*.gitkeep
 gamefiles/
 Balatro-APK-Patch/
 tools/

@@ -1,6 +1,7 @@
 FROM alpine
 ENV PATH="${PATH}:/usr/local/share/bin/tools:/usr/local/share/src"
 ENV ENV=/etc/profile
+ENV apkcache=/var/cache/apk
 ENV apktool='java -jar -Xmx1G -Duser.language=en -Dfile.encoding=UTF8 -Djdk.util.zip.disableZip64ExtraFieldValidation=true -Djdk.nio.zipfs.allowDotZipEntry=true /usr/local/share/bin/tools/apktool.jar'
 RUN  apk update \
   && apk upgrade \
